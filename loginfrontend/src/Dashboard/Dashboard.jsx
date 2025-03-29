@@ -9,7 +9,7 @@ import SalaryTable from "../components/SalaryData/salaryTable";
 import SalaryDeduction from '../components/SalaryDeduction/salarydeduction';
 import FranchiseeTerms from '../components/FranchiseeTerms/franchiseeterms';
 import ClientTerms from "../components/ClientTerms/clientterms";
-import ExpensesData from "../components/expenses/expensesdata";
+import ExpensesData from "../components/Expenses/expensesdata";
 import VendorData from "../components/VendorData/vendordata";
 import Enquiryform from "../components/enquirydata/enquiryform";
 // import CampusRecruitment from "../components/CampusRecruitment/CampusRecruitment";
@@ -45,7 +45,7 @@ function Dashboard() {
                     {selectedPage === 'salarydeduction' && <SalaryDeduction />}
                     {selectedPage === 'franchiseeterms' && <FranchiseeTerms />}
                     {selectedPage === 'clientterms' && <ClientTerms />}
-                    {selectedPage === 'expenses' && <ExpensesData />}
+                    {selectedPage === 'expensesdata' && <ExpensesData />}
                     {/* {selectedPage === 'campusrecruitment' && <CampusRecruitment />} */}
                     {selectedPage === 'vendordata' && <VendorData />}
                     {selectedPage === 'enquirydata' && <Enquiryform />}
@@ -53,7 +53,7 @@ function Dashboard() {
                     {selectedPage === 'invoicedata' && <InvoiceData />}
                     {selectedPage === 'cancellation' && <CancellationSheet/>}
                     {selectedPage === 'client' && <Client/>}
-                    {selectedPage === 'legal' && <Legal/>}
+                    
                     {selectedPage === 'FranchiseForm' && <FranchiseDashboard/>}
                     {selectedPage === 'franchisepayment' && <FranchisePayment/>}
                     {selectedPage === 'expenditure' && <ExpenditureTable/>}
