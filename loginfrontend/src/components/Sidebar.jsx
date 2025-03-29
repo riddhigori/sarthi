@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './SideBar.css';
+import './Sidebar.css';
 import { MdCategory, MdOutlineRealEstateAgent, MdOutlineWarningAmber } from "react-icons/md";
 import { BiHomeAlt } from "react-icons/bi";
 import { FaRegFileAlt, FaRegCalendarAlt } from "react-icons/fa";
