@@ -10,7 +10,7 @@ import SalaryDeduction from '../components/SalaryDeduction/salarydeduction';
 import FranchiseeTerms from '../components/FranchiseeTerms/franchiseeterms';
 import ClientTerms from "../components/ClientTerms/clientterms";
 import ExpensesData from "../components/Expenses/expensesdata";
-import VendorData from "../components/VendorData/vendordata";
+import VendorData from "../components/vendordata/vendordata";
 import Enquiryform from "../components/enquirydata/enquiryform";
 // import CampusRecruitment from "../components/CampusRecruitment/CampusRecruitment";
 import EmployeeData from "../components/employee/employeedata";
