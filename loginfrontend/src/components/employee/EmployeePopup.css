@@ -1,0 +1,195 @@
+.employee-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .employee-popup-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .back-btn {
+    background: none;
+    border: none;
+    color: #6c5ce7;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-details-btn,
+  .download-btn,
+  .edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .view-details-btn {
+    color: #6c5ce7;
+  }
+  
+  .edit-btn {
+    color: #6c5ce7;
+  }
+  
+  .download-icon {
+    font-size: 16px;
+  }
+  
+  .popup-content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .employee-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .avatar-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .employee-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+  }
+  
+  .employee-designation {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 15px 0;
+  }
+  
+  .performance-btn {
+    background-color: #e8e4ff;
+    color: #6c5ce7;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    align-self: flex-start;
+  }
+  
+  .employee-details {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .detail-row {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+  
+  .detail-row:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .detail-label {
+    width: 120px;
+    font-weight: 500;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .detail-value {
+    flex: 1;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .popup-footer {
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .employee-name-footer {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .employee-tags {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tag {
+    background-color: #e8e4ff;
+    color: #6c5ce7;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
+  

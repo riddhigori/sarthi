@@ -1,0 +1,131 @@
+/* Container styles */
+.expenditure-container {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* Header section styles */
+.expenditure-header-section {
+  margin-bottom: 1.5rem;
+}
+
+.expenditure-main-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6b21a8;
+}
+
+.expenditure-subtitle {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.expenditure-filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.expenditure-filter-select,
+.expenditure-filter-input {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.expenditure-search-button {
+  background-color: #7c3aed;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Table header styles */
+.expenditure-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.expenditure-table-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.expenditure-download-icon {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.expenditure-download-icon:hover {
+  color: #3b82f6;
+}
+
+/* Table container styles */
+.expenditure-table-container {
+  overflow: auto;
+}
+
+.expenditure-table {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  min-width: max-content;
+  border-collapse: collapse;
+}
+
+.expenditure-table-header-row {
+  background-color: #ede9fe;
+  color: #374151;
+}
+
+.expenditure-table-cell {
+  padding: 0.5rem;
+}
+
+.expenditure-table-row {
+  border-top: 1px solid #d1d5db;
+  background-color: white;
+}
+
+.expenditure-table-row:hover {
+  background-color: #f3f4f6;
+}
+
+.expenditure-bold-text {
+  font-weight: bold;
+}
+
+.expenditure-edit-input {
+  border: 1px solid #d1d5db;
+  padding: 0.25rem;
+  width: 100%;
+  text-align: center;
+}
+
+.expenditure-action-cell {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.expenditure-edit-icon {
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+.expenditure-delete-icon {
+  color: #ef4444;
+  cursor: pointer;
+}
+
+/* Footer styles */
+.expenditure-footer-row {
+  background-color: #ddd6fe;
+  color: #1f2937;
+  font-weight: 600;
+}
