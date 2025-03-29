@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { FaRegQuestionCircle, FaBell, FaCog } from 'react-icons/fa';
-import logo from '../assets/Logo.png'; // Adjust path as needed
+import logo from '../src/assets/logo.png'; // Adjust path as needed
 
 function Header() {
     const [settingsOpen, setSettingsOpen] = useState(false);
